@@ -1,0 +1,251 @@
+	Codebook for tidyData.txt - Description of the variables in the Data.  This output comes as a result of an online Coursera course called Getting and Cleaning Data - April 2015.  This file is a tab delimited, text file with headers.  The original dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+	
+
+	subject										text
+			An identifier of the subject who carried out the experiment.
+			
+	activity_name								text
+			Name of the activity performed
+				WALKING
+				WALKING_UPSTAIRS
+				WALKING_DOWNSTAIRS
+				SITTING
+				STANDING
+				LAYING
+
+	time_Body_Accelerometer-mean-X				double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body acceleration in the X direction
+			
+	time_Body_Accelerometer-mean-Y				double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body acceleration in the Y direction
+			
+	time_Body_Accelerometer-mean-Z				double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body acceleration in the Z direction
+			
+	time_Body_Accelerometer-std-X				double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body acceleration in the X direction
+			
+	time_Body_Accelerometer-std-Y				double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body acceleration in the Y direction
+			
+	time_Body_Accelerometer-std-Z				double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body acceleration in the Z direction
+			
+	time_Gravity_Accelerometer-mean-X			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear gravity acceleration in the X direction
+			
+	time_Gravity_Accelerometer-mean-Y			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear gravity acceleration in the Y direction
+			
+	time_Gravity_Accelerometer-mean-Z			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear gravity acceleration in the Z direction
+			
+	time_Gravity_Accelerometer-std-X			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear gravity acceleration in the X direction
+			
+	time_Gravity_Accelerometer-std-Y			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear gravity acceleration in the Y direction
+			
+	time_Gravity_Accelerometer-std-Z			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear gravity acceleration in the Z direction
+			
+	time_Body_Accelerometer_Jerk-mean-X			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body acceleration jerk in the X direction
+			
+	time_Body_Accelerometer_Jerk-mean-Y			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body acceleration jerk in the Y direction
+			
+	time_Body_Accelerometer_Jerk-mean-Z			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body acceleration jerk in the Z direction
+			
+	time_Body_Accelerometer_Jerk-std-X			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body acceleration jerk in the X direction
+			
+	time_Body_Accelerometer_Jerk-std-Y			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body acceleration jerk in the Y direction
+			
+	time_Body_Accelerometer_Jerk-std-Z			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body acceleration jerk in the Z direction
+			
+	time_Body_Gyroscope-mean-X					double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body gyroscope in the X direction
+			
+	time_Body_Gyroscope-mean-Y					double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body gyroscope in the Y direction
+			
+	time_Body_Gyroscope-mean-Z					double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body gyroscope in the Z direction
+			
+	time_Body_Gyroscope-std-X					double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body gyroscope in the X direction
+			
+	time_Body_Gyroscope-std-Y					double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body gyroscope in the Y direction
+			
+	time_Body_Gyroscope-std-Z					double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body gyroscope in the Z direction
+			
+	time_Body_Gyroscope_Jerk-mean-X				double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body gyroscope jerk in the X direction
+			
+	time_Body_Gyroscope_Jerk-mean-Y				double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body gyroscope jerk in the Y direction
+			
+	time_Body_Gyroscope_Jerk-mean-Z				double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body gyroscope jerk in the Z direction
+			
+	time_Body_Gyroscope_Jerk-std-X				double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body gyroscope jerk in the X direction
+			
+	time_Body_Gyroscope_Jerk-std-Y				double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body gyroscope jerk in the Y direction
+			
+	time_Body_Gyroscope_Jerk-std-Z				double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body gyroscope jerk in the Z direction
+			
+	time_Body_Accelerometer_Magnitude-mean		double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body acceleration magnitude
+			
+	time_Body_Accelerometer_Magnitude-std		double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body acceleration magnitude
+			
+	time_Gravity_Accelerometer_Magnitude-mean	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear gravity acceleration magnitude
+			
+	time_Gravity_Accelerometer_Magnitude-std	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear gravity acceleration magnitude
+			
+	time_Body_Accelerometer_Jerk_Magnitude-mean	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body acceleration jerk magnitude
+			
+	time_Body_Accelerometer_Jerk_Magnitude-std	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body acceleration jerk magnitude
+			
+	time_Body_Gyroscope_Magnitude-mean			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body gyroscope magnitude
+			
+	time_Body_Gyroscope_Magnitude-std			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body gyroscope magnitude
+			
+	time_Body_Gyroscope_Jerk_Magnitude-mean		double
+			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
+			of the linear body gyroscope jerk magnitude
+	time_Body_Gyroscope_Jerk_Magnitude-std		double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
+			of the linear body gyroscope jerk magnitude
+	frequency_Body_Accelerometer-mean-X		double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body acceleration in the X direction
+	frequency_Body_Accelerometer-mean-Y		double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body acceleration in the Y direction
+	frequency_Body_Accelerometer-mean-Z		double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body acceleration in the Z direction
+	frequency_Body_Accelerometer-std-X		double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body acceleration in the X direction
+	frequency_Body_Accelerometer-std-Y		double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body acceleration in the Y direction
+	frequency_Body_Accelerometer-std-Z		double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body acceleration in the Z direction
+	frequency_Body_Accelerometer_Jerk-mean-X	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body acceleration jerk in the X direction
+	frequency_Body_Accelerometer_Jerk-mean-Y	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body acceleration jerk in the Y direction
+	frequency_Body_Accelerometer_Jerk-mean-Z	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body acceleration jerk in the Z direction
+	frequency_Body_Accelerometer_Jerk-std-X	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body acceleration jerk in the X direction
+	frequency_Body_Accelerometer_Jerk-std-Y	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body acceleration jerk in the Y direction
+	frequency_Body_Accelerometer_Jerk-std-Z	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body acceleration jerk in the Z direction
+	frequency_Body_Gyroscope-mean-X			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body gyroscope in the X direction
+	frequency_Body_Gyroscope-mean-Y			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body gyroscope in the Y direction
+	frequency_Body_Gyroscope-mean-Z			double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body gyroscope in the Z direction
+	frequency_Body_Gyroscope-std-X			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body gyroscope in the X direction
+	frequency_Body_Gyroscope-std-Y			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body gyroscope in the Y direction
+	frequency_Body_Gyroscope-std-Z			double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body gyroscope in the Z direction
+	frequency_Body_Accelerometer_Magnitude-mean	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body acceleration magnitude
+	frequency_Body_Accelerometer_Magnitude-std	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body acceleration magnitude
+	frequency_BodyBody_Accelerometer_Jerk_Magnitude-mean	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body acceleration jerk magnitude
+	frequency_BodyBody_Accelerometer_Jerk_Magnitude-std	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body acceleration jerk magnitude
+	frequency_BodyBody_Gyroscope_Magnitude-mean	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body gyroscope magnitude
+	frequency_BodyBody_Gyroscope_Magnitude-std	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body gyroscope magnitude
+	frequency_BodyBody_Gyroscope_Jerk_Magnitude-mean	double
+			Average, normalized and bounded ([-1,1]) measure of the mean, fast fourier transform
+			of the linear body gyroscope jerk magnitude
+	frequency_BodyBody_Gyroscope_Jerk_Magnitude-std	double
+			Average, normalized and bounded ([-1,1]) measure of the std dev, fast fourier transform
+			of the linear body gyroscope jerk magnitude
