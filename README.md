@@ -33,6 +33,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
          c) attach column names to the data sets
          d) merge the separate data set columns together to form a single test table and train table
          e) merge the rows of the test and train tables to form a single data set
+
+----------------------------------
          
 # Step #2 - Extracts only the measurements on the mean and standard deviation for each measurement
 
@@ -43,6 +45,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     text patterns: "subject", "activity", "mean()", or "std()".  In order to find the parenthesis in R, 
     we must escape (precede) the special characters.
     
+----------------------------------
+         
 # Step #3 - Uses descriptive activity names to name the activities in the data set
 
     First, we add activity name to complete_data using the merge command to join the table 
@@ -51,10 +55,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     In order to keep the data tidy, we eliminate the duplicative column activity code from complete_data
     using the dplyr package function "select".
     
+----------------------------------
+         
 # Step #4 - Appropriately labels the data set with descriptive variable names.
 
     Using the sub command, we replace abbreviated values in the column names with readable names
     
+----------------------------------
+         
 # Step #5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
     Using the ddply function from the plyr package, we group on the subject and activity_name columns
