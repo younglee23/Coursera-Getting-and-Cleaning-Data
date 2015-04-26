@@ -53,7 +53,11 @@ Good luck!
 
     The regex pattern we use will look for anything column name that contains any of the following
     text patterns: "subject", "activity", "mean()", or "std()".  In order to find the parenthesis in R, 
-    we must escape (precede) the special characters.
+    we must escape (precede) the special characters (e.g. "\\(\\)" in regex will find the "()" pattern in text).
+    
+    For the purposes of this exercise, we assume we are only extracting measurements that are the mean values. This 
+    means we exclude values that are calculated based on the mean measurements (like angles based on mean, etc).  In
+    order to include these values, we can drop the parenthesis from the text patterns that we search.
     
 ----------------------------------
          
