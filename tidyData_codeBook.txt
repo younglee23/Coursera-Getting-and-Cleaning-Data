@@ -1,10 +1,13 @@
-	Codebook for tidyData.txt - Description of the variables in the Data.  This output comes as a result of an online Coursera course called Getting and Cleaning Data - April 2015.  This file is a tab delimited, text file with headers.  The original dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+	Codebook for tidyData.txt - Description of the variables in the Data.  This output comes as a result of 
+	an online Coursera course called Getting and Cleaning Data - April 2015.  This file is a tab delimited, 
+	text file with headers.  The original dataset: 
+	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 	
 
-	subject										text
+	subject							text
 			An identifier of the subject who carried out the experiment.
 			
-	activity_name								text
+	activity_name						text
 			Name of the activity performed
 				WALKING
 				WALKING_UPSTAIRS
@@ -85,27 +88,27 @@
 			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
 			of the linear body acceleration jerk in the Z direction
 			
-	time_Body_Gyroscope-mean-X					double
+	time_Body_Gyroscope-mean-X				double
 			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
 			of the linear body gyroscope in the X direction
 			
-	time_Body_Gyroscope-mean-Y					double
+	time_Body_Gyroscope-mean-Y				double
 			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
 			of the linear body gyroscope in the Y direction
 			
-	time_Body_Gyroscope-mean-Z					double
+	time_Body_Gyroscope-mean-Z				double
 			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
 			of the linear body gyroscope in the Z direction
 			
-	time_Body_Gyroscope-std-X					double
+	time_Body_Gyroscope-std-X				double
 			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
 			of the linear body gyroscope in the X direction
 			
-	time_Body_Gyroscope-std-Y					double
+	time_Body_Gyroscope-std-Y				double
 			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
 			of the linear body gyroscope in the Y direction
 			
-	time_Body_Gyroscope-std-Z					double
+	time_Body_Gyroscope-std-Z				double
 			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
 			of the linear body gyroscope in the Z direction
 			
@@ -133,27 +136,27 @@
 			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
 			of the linear body gyroscope jerk in the Z direction
 			
-	time_Body_Accelerometer_Magnitude-mean		double
+	time_Body_Accelerometer_Magnitude-mean			double
 			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
 			of the linear body acceleration magnitude
 			
-	time_Body_Accelerometer_Magnitude-std		double
+	time_Body_Accelerometer_Magnitude-std			double
 			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
 			of the linear body acceleration magnitude
 			
-	time_Gravity_Accelerometer_Magnitude-mean	double
+	time_Gravity_Accelerometer_Magnitude-mean		double
 			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
 			of the linear gravity acceleration magnitude
 			
-	time_Gravity_Accelerometer_Magnitude-std	double
+	time_Gravity_Accelerometer_Magnitude-std		double
 			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
 			of the linear gravity acceleration magnitude
 			
-	time_Body_Accelerometer_Jerk_Magnitude-mean	double
+	time_Body_Accelerometer_Jerk_Magnitude-mean		double
 			Average, normalized and bounded ([-1,1]) measure of the mean, time signal
 			of the linear body acceleration jerk magnitude
 			
-	time_Body_Accelerometer_Jerk_Magnitude-std	double
+	time_Body_Accelerometer_Jerk_Magnitude-std		double
 			Average, normalized and bounded ([-1,1]) measure of the std dev, time signal
 			of the linear body acceleration jerk magnitude
 			
